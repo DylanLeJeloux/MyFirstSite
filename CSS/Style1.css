@@ -166,21 +166,21 @@
 
 .button {
     font-family: 'Roboto',sans-serif;
-    width: 7vw;
-    height:4vw;
+    width: max-content;
+    height:fit-content;
     text-align: center;
     text-decoration: none;
     color: rgb(0, 132, 255);
     background-color: rgb(255, 255, 255);
     border-radius: 1vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .button:hover {
     font-family: 'Roboto',sans-serif;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 162, 255);
+    color: rgb(46, 206, 255);
+    font-weight:bold;
 }
 
 @media screen {
