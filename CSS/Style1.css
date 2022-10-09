@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+.MainBody {
+    background-color: rgb(255, 255, 255);
+}
+
+.TopBar {
+    margin-left: auto;
+    background-color: rgba(219, 219, 219, 0);
+    max-width:200vw;
+    height: 2.5vw;
+    border-radius: 1.4vw;
+    display: flex;
+    align-items: center;
+    height: 5vw
+}
+
+.TextTopBar {
+    display:flex;
+    list-style:none;
+    align-items: center;
+    font-weight:bold;
+}
+
+.TextTopBar img {
+    height: 2.3vw;
+}
+
+
+.TextTopBar li {
+    font-family: 'Mukta', serif;
+    color: grey;
+    padding: 5vw;
+    margin-top: auto;
+    font-size: 1vw;
+    width: 15vw;
+}
+
+.TextTopBar li:hover {
+    color: rgb(177, 177, 177);
+}
+
+.Links:link { text-decoration: none; }
+.Links:visited { text-decoration: none; }
+.Links:hover { text-decoration: none; }
+.Links:active { text-decoration: none; }
+
+.Part1 {
+    display: flex;
+    justify-content: center;
+}
+
+.Part1 img{
+    margin-top: 5vw;
+    width: 60%;
+}
+
+.Part2 {
+    width: 14vw;
+    display: flex;
+}
+
+.Intro{
+    display:flex;
+    font-weight:bold;
+    list-style:none;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 5vw;
+    color: grey;
+}
+
+.Intro li{
+    margin-left: 1vw;
+    margin-top: -10vw;
+}
+
+.BoxBuy {
+    height: 20vw;
+}
+
+.AcheterBox{
+    position: relative;
+    top: -25vw;
+    margin-left: 75%;
+    font-size: 2.8vw;
+    z-index: 3;
+    border-style:solid;
+    font-family: 'Roboto',sans-serif;
+    width: 7vw;
+    height:4vw;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Part2 {
+    display: flex;
+    margin-top:-9vw;
+    margin-left: -5%;
+    width: 110%;
+    text-align: center;
+    height: 60vw;
+    font-weight:bold;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5vw;
+    color: rgba(8, 8, 8, 0.555);
+    white-space:break-spaces;
+}
+
+.Image2{
+    width: 100vw;
+}
+
+.Part2 li{
+    position: relative;
+    top: 50vw;
+    font-size: 4vw;
+    margin-top: -40vw;
+    text-align: center;
+    list-style: none;
+    margin-left: 25vw;
+    width: 50vw;
+}
+
+.AcheterBox:hover{
+    margin-left: 75%;
+    font-weight:bold;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 162, 255);
+    border-color:rgb(0, 162, 255);
+    font-size: 2.8vw;
+    text-align:center;
+    z-index: 3;
+    border-style:inset;
+    border-radius: 1vw;
+    border-style:solid;
+}
+
+.Bottom {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    margin-top: 10vw;
+    background-color: rgb(247, 247, 247);
+    border-radius: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 4vw;
+}
+
+.prix {
+    font-family: 'Roboto',sans-serif;
+    color: grey;
+}
+
+.button {
+    font-family: 'Roboto',sans-serif;
+    width: 7vw;
+    height:4vw;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 162, 255);
+}
+
+@media screen {
+    
+}
