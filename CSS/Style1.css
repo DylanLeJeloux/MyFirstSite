@@ -167,11 +167,11 @@
 .button {
     font-family: 'Roboto',sans-serif;
     width: max-content;
-    height:fit-content;
+    height:auto;
     text-align: center;
     text-decoration: none;
     color: rgb(0, 132, 255);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 1vw;
     
 }
